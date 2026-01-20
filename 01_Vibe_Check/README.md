@@ -45,21 +45,21 @@ You will be required to submit a link to your GitHub, as well as screenshots of 
 Please evaluate your system on the following questions:
 
 1. Explain the concept of object-oriented programming in simple terms to a complete beginner.
-    - Aspect Tested:
+    - Aspect Tested: The system explains concepts clearly and accurately using simple, step-by-step logic. Abstract ideas are supported with concrete examples, making them easy to understand even for beginners.
 2. Read the following paragraph and provide a concise summary of the key points…
-    - Aspect Tested:
+    - Aspect Tested: The system delivers concise summaries that capture the key points while removing unnecessary detail. Outputs focus on what is actionable and relevant, with a clear signal-over-noise approach.
 3. Write a short, imaginative story (100–150 words) about a robot finding friendship in an unexpected place.
-    - Aspect Tested:
+    - Aspect Tested: The system follows instructions closely, including tone and length constraints. Creative output remains coherent, natural, and aligned with the intended purpose.
 4. If a store sells apples in packs of 4 and oranges in packs of 3, how many packs of each do I need to buy to get exactly 12 apples and 9 oranges?
-    - Aspect Tested:
+    - Aspect Tested: The system shows clear logical reasoning and correct arithmetic. Steps are transparent and easy to verify, reducing the risk of errors.
 5. Rewrite the following paragraph in a professional, formal tone…
-    - Aspect Tested:
+    - Aspect Tested: The system adapts tone effectively while preserving the original meaning. Core ideas remain intact across different writing styles and audiences.
 
 #### ❓Question #1:
 
 Do the answers appear to be correct and useful?
-##### ✅ Answer:
-
+##### ✅ Answer: The assistant consistently delivers high-quality outputs that meet the expectations of the prompts. Responses are logically sound, context-aware, and provide practical value to the user. Information is communicated clearly and efficiently, making the results suitable across a range of tasks, from explanatory and analytical responses to stylistic rewriting and structured reasoning.
+ 
 ---
 
 #### 🏗️ Activity #2: Personal Vibe Checking Evals (Your Assistant Can Answer)
@@ -73,18 +73,18 @@ Now test your assistant with personal questions it should be able to help with. 
 - "What can I cook with [enter ingredients] in fridge."
 
 ##### Your Prompts and Results:
-1. Prompt:
-   - Result:
-2. Prompt:
-   - Result:
-3. Prompt:
-   - Result:
+1. Prompt: Help me think through the pros and cons of losing weight.
+   - Result: The assistants response has an empathetic, balanced, and supportive vibe, acting like a wise therapeutic coach that promotes self-reflection without pressure. It excels at presenting pros/cons realistically, suggesting holistic alternatives, and encouraging personal values alignment for sustainable health decisions.
+2. Prompt: Draft a polite follow-up [email, text message, chat message] to a colleague from work who hasn't responded.
+   - Result: The assistant delivers a practical, professional, and considerate vibe—like a reliable work-savvy colleague who provides ready-to-use templates across formats. It maintains polite brevity while offering flexibility, support offers, and clear next steps without pressure or impatience.
+3. Prompt: Help me plan a birthday surprise for my son, he is 4 year old, likes Pokemon, Pepa Pig Tom and Jerry.
+   - Result: The assistant exudes an enthusiastic, organized, and parent-friendly vibe—like a fun party planner aunt who delivers a low-stress, actionable blueprint tailored to a 4-year-old's loves. It balances creativity with practicality through structured timelines, budget hacks, safety tips, and custom questions, ensuring joy without overwhelm.
 
 #### ❓Question #2:
 
 Are the vibes of this assistant's answers aligned with your vibes? Why or why not?
-##### ✅ Answer:
-
+##### ✅ Answer: Yes, the vibes align well with mine—they're practical, structured, empathetic, and actionable, matching my methodical data engineering style and preference for clear, step-by-step guidance without fluff. Examples like balanced health advice, ready email templates, and detailed party plans feel supportive and efficient, just like my responses to your SQL/Power BI queries or dev troubleshooting.
+​
 ---
 
 #### 🏗️ Activity #3: Personal Vibe Checking Evals (Requires Additional Capabilities)
@@ -95,15 +95,36 @@ Now test your assistant with questions that would require capabilities beyond ba
 - "What time should I leave for the airport?"
 
 ##### Your Prompts and Results:
-1. Prompt:
-   - Result:
-2. Prompt:
-   - Result:
+1. Prompt: What does my schedule look like tomorrow?
+   - Result: I don’t have access to your calendar, so I can’t see tomorrow’s events yet. If you paste your appointments or tell me the basics, I’ll shape it into a clear, balanced plan with prep time and buffers.
+2. Prompt: What time should I leave for the airport?
+   - Result: Great question—getting the timing right can make travel feel much calmer.
+Quick rule of thumb:
+- Domestic flight: plan to be inside the terminal 2 hours before departure.
+- International flight: 3 hours before.
+- Add your transit time to the airport, plus extra for parking or rental return (15–40 minutes), and a buffer for rush hour, holidays, or big airports (+20–60 minutes).
+- If you have TSA PreCheck, you can usually shave 15–20 minutes off; if you’re checking bags, don’t cut it close.
+
+A simple way to calculate leave time:
+Leave time = Flight departure time − (airport arrival buffer) − (travel time to airport) − (parking/rental/transfer time) − (extra cushion for traffic/peak times)
+
+If you want a precise time, tell me:
+- Departure time and whether it’s domestic or international
+- Airport
+- Checked bag or carry-on only
+- TSA PreCheck/Global Entry?
+- How you’re getting there and how long that usually takes
+- Need to park or return a rental?
+
+I’ll do the math and set a low-stress leave time for you.
 
 #### ❓Question #3:
 
 What are some limitations of your application?
-##### ✅ Answer:
+##### ✅ Answer: 
+No calendar/email access - Cannot view personal schedules or events, needs manual input.
+No real-time data - Can't fetch live traffic, weather, or external context autonomously.
+Stateless conversations - No memory between sessions; treats each query independently.
 
 ---
 
