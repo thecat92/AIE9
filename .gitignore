@@ -2,11 +2,9 @@
 .env
 content/
 .claude/
-.DS_Store
-.env
-content/
 __pycache__/
 *.pyc
 .langgraph_api/
 .venv
 uv.lock
+workspace
