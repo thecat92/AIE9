@@ -83,7 +83,9 @@ What is the difference between serverless and dedicated endpoints?
 
 #### ✅ Answer:
 
-_(insert your answer here)_
+I would say that serverless endpoints run on shared infrastructure managed by the provider, so I don’t need to deploy or manage servers. They are simple to use and good for testing or small workloads, but they may have rate limits and slightly less stable latency.
+
+Dedicated endpoints run on infrastructure reserved only for my model. They offer more stable performance and higher throughput, which is better for production, but they require setup and have ongoing compute costs.
 
 ### ❓ Question #2:
 
@@ -91,7 +93,9 @@ Why is it important to consider token throughput and latency when choosing an LL
 
 #### ✅ Answer:
 
-_(insert your answer here)_
+I think token throughput and latency affect how fast users get responses from an LLM application. Low latency means quicker responses, while higher throughput means the system can handle many requests at the same time.
+
+If responses are slow or the system gets overloaded, the user experience becomes worse. That’s why it’s important to choose models and infrastructure that can provide fast and reliable performance.
 
 ## Activity 1: RAGAS Evaluation with Cost Analysis
 

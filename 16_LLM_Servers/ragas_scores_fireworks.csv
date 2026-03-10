@@ -1,0 +1,83 @@
+user_input,retrieved_contexts,response,reference,context_recall,faithfulness,factual_correctness(mode=f1)
+What are the feline life stages in the guidelines?,"['The guidelines describe five life stages: kitten, young adult, mature adult, senior, and end-of-life.']","**Feline Life‑Stage Guidelines (2021 AAHA/AAFP)**
+
+| Life‑Stage | Typical Age Range | Key Focus Areas |
+|------------|-------------------|-----------------|
+| **Kitten** | 0 – 12 months | Rapid growth, vaccination schedule, nutrition for development, parasite prevention, socialization. |
+| **Young Adult** | 1 – 3 years | Transition to adult diet, continued preventive care, behavior management, early detection of health issues. |
+| **Mature Adult** | 4 – 8 years | Maintenance of healthy weight, dental care, routine screenings, parasite control. |
+| **Senior** | 9 – 12 years | Monitoring for age‑related conditions (e.g., kidney disease, arthritis), adjusted diet, more frequent exams. |
+| **End‑of‑Life** | > 12 years (or clinically frail) | Focus on comfort, palliative care, quality‑of‑life decisions, and humane end‑of‑life planning. |
+
+These five stages replace the older six‑stage system and are designed to align with how pet owners perceive their cat’s maturation and aging. The guidelines provide age‑specific recommendations for behavior, environment, nutrition, weight management, oral health, parasite control, vaccination, zoonoses, diagnostics, and strategies for encouraging regular veterinary visits.","The guidelines describe five life stages: kitten, young adult, mature adult, senior, and end-of-life.",,,
+Why is a cat's life stage important during a check-up?,"['The life stage helps guide the cat’s healthcare plan, and every exam should include checking the life stage.']","**Why a cat’s life stage matters during a wellness check‑up**
+
+The American Association of Feline Practitioners (AAFP) and the American Association of Avian, Feline, and Exotic Pet Practitioners (AAHA) publish *Feline Life‑Stage Guidelines* that show how a cat’s age‑related stage drives every clinical decision during a routine exam.  
+(Information retrieved via the **retrieve_information** tool.)
+
+| Life‑Stage | Typical Age Range | Why it matters at a check‑up |
+|------------|-------------------|------------------------------|
+| **Kitten** | 0–12 months | • Rapid growth → higher caloric & nutrient needs.<br>• Immune system still developing → specific core vaccine schedule (e.g., FVRCP, FeLV).<br>• Early parasite prevention (fleas, ticks, intestinal worms). |
+| **Young Adult** | 1–4 years | • Peak activity and reproductive potential → focus on behavior, enrichment, and reproductive health.<br>• Routine vaccinations and parasite control continue, but boosters may be spaced differently. |
+| **Mature Adult** | 5–10 years | • Transition to chronic‑health baseline.<br>• Begin age‑appropriate screening (dental, orthopedic, endocrine).<br>• Weight management becomes critical to prevent obesity‑related disease. |
+| **Senior** | ≥10 years | • Increased risk of age‑related diseases (renal, hepatic, cardiac, endocrine).<br>• More frequent diagnostics (CBC, chemistry, urinalysis) and targeted screening (e.g., thyroid, kidney function).<br>• Adjust diet, activity, and medication plans for geriatric physiology. |
+| **End‑of‑Life** | Variable | • Shift focus to comfort, quality of life, and palliative care. |
+
+### How life‑stage assessment guides the exam
+
+1. **Nutrition & Weight Management** – Stage‑specific caloric needs and nutrient profiles help prevent obesity in mature adults or under‑nutrition in kittens.  
+2. **Vaccination** – Core vaccines are timed to the cat’s age; boosters are scheduled based on risk and life‑stage.  
+3. **Parasite Control** – Prevention plans are tailored to the cat’s activity level and exposure risk at each stage.  
+4. **Behavior & Environment** – Enrichment and behavior modification are matched to the cat’s activity level and environmental needs.  
+5. **Diagnostic Screening** – Routine baseline tests (CBC, chemistry, urinalysis) plus age‑appropriate screening (dental, orthopedic, endocrinology) are selected based on the stage‑specific disease risk profile.
+
+### Bottom line
+
+A life‑stage assessment provides an evidence‑guided framework that:
+
+- Aligns preventive care with the cat’s real‑world risk profile.  
+- Helps spot early warning signs that might otherwise be missed.  
+- Gives owners a clear, understandable roadmap that matches how they perceive their pet’s “maturity.”
+
+For the full tables and detailed age‑specific guidelines, consult the AAHA/AAFP 2021 *Feline Life‑Stage Guidelines* (the source referenced in the retrieved information).","The life stage helps guide the cat’s healthcare plan, and every exam should include checking the life stage.",,,
+Why do the guidelines recommend regular vet visits for cats?,"['Because cats can move between life stages quickly, illness can be hard to notice, and their care should change over time.']","**Why the guidelines recommend regular vet visits for cats**
+
+The 2021 AAHA/AAFP Feline Life‑Stage Guidelines list several key reasons why routine veterinary care is essential for a cat’s health and longevity:
+
+| Reason | What the guidelines say |
+|--------|------------------------|
+| **Early disease detection** | Annual exams give vets a chance to spot subtle signs of illness or pain that owners often miss. |
+| **Preventive health measures** | Visits cover vaccinations, parasite control, sterilization, and micro‑chipping—critical steps that keep cats safe and healthy. |
+| **Life‑stage monitoring** | Each exam includes a life‑stage assessment, weight check, and discussion of nutrition appropriate for the cat’s age. |
+| **Senior‑cat care** | Cats over 7 years should be seen at least every 6 months (more often if they have chronic conditions). |
+| **Behavior & environment counseling** | The guidelines encourage addressing behavioral issues and environmental enrichment during routine visits. |
+| **Client education & cost planning** | Regular check‑ups allow owners to learn about preventive care, discuss pet insurance, and plan for future expenses. |
+| **Documentation & individualized care** | Recording temperament, handling preferences, and health history helps tailor future visits and reduce stress. |
+| **Promotion of overall health & longevity** | A comprehensive, age‑associated framework is designed to keep cats healthy throughout their lives. |
+
+**Bottom line:** Regular veterinary visits provide a structured opportunity for preventive care, early detection of problems, tailored nutrition and behavior advice, and ongoing education—factors that together promote a longer, healthier life for cats.","Because cats can move between life stages quickly, illness can be hard to notice, and their care should change over time.",,,
+Why do cats get less primary care than dogs?,"['Many owners think cats do not need as much care, and signs of illness or pain are harder to see.']","Cats tend to receive less primary veterinary care than dogs for a few key reasons:
+
+| Reason | What it means for cat owners |
+|--------|------------------------------|
+| **Perceived self‑sufficiency** | Many owners view cats as independent, “self‑sufficient” pets that can manage on their own, so they’re less likely to schedule routine visits. |
+| **Hidden signs of illness** | Cats are naturally stoic and often hide pain or discomfort. Subtle health problems can go unnoticed until they become more serious, making owners less likely to seek early care. |
+| **Lower perceived need for routine check‑ups** | Because of the above two factors, owners often think routine vet visits are unnecessary for cats, unlike dogs where regular check‑ups are more common. |
+
+**Evidence**  
+- In a 2006 survey, dogs were taken to veterinarians more than twice as often as cats (≈ 2.3 times per year for dogs vs. ≈ 1.1 times per year for cats). This pattern has persisted to the present day.  
+
+These attitudes and behaviors contribute to the observed imbalance in primary care utilization between cats and dogs.","Many owners think cats do not need as much care, and signs of illness or pain are harder to see.",,,
+What is one big change in the 2021 feline life stage guidelines?,['The new guidelines use five stages: four age-based stages and one end-of-life stage.'],"**One major change in the 2021 AAHA/AAFP Feline Life‑Stage Guidelines is the simplification of the life‑stage categories.**  
+The 2010 guidelines used six distinct stages (kitten, young adult, mature adult, senior, geriatric, and end‑of‑life). The 2021 update reduced this to **four age‑based stages—kitten, young adult, mature adult, and senior—plus a separate end‑of‑life stage**. This streamlined grouping was designed to align more closely with how pet owners perceive their cat’s development and to make clinical protocols and owner communication easier to implement【2†source】.",The new guidelines use five stages: four age-based stages and one end-of-life stage.,,,
+Why do the guidelines recommend feline-friendly handling?,"['Because it reduces stress, makes the experience safer, and helps cats get regular healthcare.']","**Why the guidelines recommend feline‑friendly handling**
+
+| Reason | Why it matters |
+|--------|----------------|
+| **Reduces the cat’s stress** | Gentle, deliberate handling lowers the cat’s physiological stress response during transport, examination, and any procedure. |
+| **Improves handler safety** | Less stressed cats are less likely to bite, scratch, or behave unpredictably, making the work environment safer for veterinary staff. |
+| **Creates a positive experience** | A calm, predictable encounter makes the visit more enjoyable for the cat, the owner, and the care provider. |
+| **Increases visit frequency** | When owners see that their cat tolerates visits well, they are more likely to bring the cat in regularly for preventive care. |
+| **Improves compliance with preventive care** | A positive experience encourages owners to follow the veterinarian’s recommendations (vaccinations, dental care, etc.). |
+
+These points collectively support the recommendation that all veterinary practices adopt feline‑friendly handling techniques as part of routine feline care.【retrieve_information】","Because it reduces stress, makes the experience safer, and helps cats get regular healthcare.",,,

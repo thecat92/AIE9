@@ -16,9 +16,20 @@ from langchain_openai import ChatOpenAI
 
 FIREWORKS_BASE_URL = "https://api.fireworks.ai/inference/v1"
 
-
 def get_chat_model(model_name: str | None = None, *, temperature: float = 0) -> Any:
-    """Return a configured LangChain ChatOpenAI client pointed at Fireworks."""
+    """Return a configured LangChain chat model. Supports Fireworks or OpenAI."""
+
+    provider = os.environ.get("MODEL_PROVIDER", "fireworks")
+
+    if provider == "openai":
+        name = model_name or os.environ.get("OPENAI_CHAT_MODEL", "gpt-4.1-mini")
+        return ChatOpenAI(
+            model=name,
+            temperature=temperature,
+            openai_api_key=os.environ["OPENAI_API_KEY"],
+        )
+
+    # Default → Fireworks
     name = model_name or os.environ.get(
         "FIREWORKS_CHAT_MODEL", "accounts/fireworks/models/gpt-oss-20b"
     )
